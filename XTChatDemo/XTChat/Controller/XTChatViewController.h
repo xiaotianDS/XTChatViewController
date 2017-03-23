@@ -1,9 +1,9 @@
 //
 //  XTChatViewController.h
-//  XTChatDemo
+//  聊天界面
 //
-//  Created by a on 17/3/23.
-//  Copyright © 2017年 a. All rights reserved.
+//  Created by apple on 17/2/9.
+//  Copyright © 2017年 wen. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

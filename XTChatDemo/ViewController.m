@@ -39,9 +39,14 @@
     self.navigationItem.title = @"首页";
 }
 
+
+/**
+ 点击按钮，跳转到聊天界面
+ */
 - (void)chatButtonClick
 {
-
+    XTChatViewController *chat = [[XTChatViewController alloc] init];
+    [self.navigationController pushViewController:chat animated:YES];
 }
 
 

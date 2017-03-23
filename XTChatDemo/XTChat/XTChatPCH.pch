@@ -1,0 +1,72 @@
+//
+//  XTChatPCH.pch
+//  XTChatDemo
+//
+//  Created by a on 17/3/23.
+//  Copyright © 2017年 a. All rights reserved.
+//
+
+
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+//#import "EaseUI.h"
+#define DEMO_CALL 1
+
+#ifndef XTChatPCH_pch
+#define XTChatPCH_pch
+
+
+#define SCREEN_WIDTH    [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT   [UIScreen mainScreen].bounds.size.height
+#define H(b) SCREEN_HEIGHT * b / 667
+#define W(a) SCREEN_WIDTH * a / 375
+
+#define RoseredColor [UIColor colorWithRed:255/255.0 green:43/255.0 blue:136/255.0 alpha:1.0]
+/**
+ *  字体大小
+ */
+//navigationItem的title字体大小
+#define NAVTITLEFONT [UIFont systemFontOfSize:H(20)]
+//特级标题
+#define FONTZERO [UIFont systemFontOfSize:H(18)]
+//一级标题字体
+#define FONTONE [UIFont systemFontOfSize:H(16)]
+//二级标题字体
+#define FONTTWO [UIFont systemFontOfSize:H(14)]
+//三级内容标题
+#define FONTTHREE [UIFont systemFontOfSize:H(13)]
+
+//颜色
+#define XTColor(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+
+//字体黑色
+#define TEXTCOLOR XTColor(16,16,16,1)
+//导航栏“完成”字体颜色
+#define ITEMTEXTCOLOR XTColor(204, 171, 112, 1)
+//灰色字体
+#define TEXTGRAYCOLOR XTColor(91, 91, 91, 1)
+//边框颜色
+#define BORDCOLOR XTColor(229,229,229,1)
+//输入框的背景颜色
+#define BJCOLOR XTColor(249,249,249,1)
+
+//控制器的背景颜色
+#define BACKGROUNDCOLOR XTColor(247,247,247,1)
+
+#define MallNavColorA [UIColor colorWithRed:255/255.0 green:148/255.0 blue:171/255.0 alpha:1.0]
+#define MallNavColorB [UIColor colorWithRed:250/255.0 green:250/255.0 blue:250/255.0 alpha:1.0]
+
+#define MallBarColor [UIColor colorWithRed:248/255.0 green:248/255.0 blue:248/255.0 alpha:1.0]
+
+
+
+#define MallNavTitleColor [UIColor colorWithRed:254/255.0 green:96/255.0 blue:131/255.0 alpha:1.0]
+
+// 导航栏下边条
+#define MallNavBootemlineColor [UIColor colorWithRed:199/255.0 green:199/255.0 blue:199/255.0 alpha:1.0]
+
+
+
+
+#endif /* XTChatPCH_pch */
